@@ -1,0 +1,52 @@
+{
+	"$baseURI": "https://yal.cc/r/20/pixelfont/",
+	"$version": "1.0",
+	"in-glyphs": [
+		"ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+		"abcdefghijklmnopqrstuvwxyz",
+		"0123456789"
+	],
+	"glyph-color": "auto",
+	"in-kerning": [
+		"T aeouqp -1",
+		"a j -2",
+		"e j -2",
+		"i j -2",
+		"o j -2",
+		"u j -2",
+		""
+	],
+	"glyph-width": 17,
+	"glyph-height": 17,
+	"glyph-ofs-x": 1,
+	"glyph-ofs-y": 1,
+	"glyph-sep-x": 1,
+	"glyph-sep-y": 1,
+	"glyph-base-x": 0,
+	"glyph-baseline": 13,
+	"glyph-spacing": 1,
+	"font-is-mono": false,
+	"font-em-square": 1024,
+	"font-line-gap": 256,
+	"font-ascend": 384,
+	"font-descend": -256,
+	"font-px-size": 64,
+	"font-name": "Mavi",
+	"font-author": "macimas",
+	"font-copy": "(c)",
+	"font-version": "1.0 (date 22.1.6)",
+	"font-desc": "it's a font based on MS Sans Serif/Levi Windows",
+	"font-license": "feel free",
+	"font-license-url": "",
+	"font-sample-text": "The quick brown fox jumps over the lazy dog.",
+	"font-preview-text": [
+		"THE QUICK BROWN FOX JUMPS OVER A LAZY DOG.",
+		"the quick brown fox jumps over a lazy dog.",
+		"Ta0",
+		"ojerst",
+		"ej",
+		"ij",
+		"oj",
+		"uj"
+	]
+}
