@@ -1,0 +1,43 @@
+{
+	"$baseURI": "https://yal.cc/r/20/pixelfont/",
+	"$version": "1.0",
+	"in-glyphs": [
+		"ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+		"abcdefghijklmnopqrstuvwxyz",
+		"1234567890 !@#$%^&*()",
+		"`-=[]\\;',./~_+{}|:\"<>?"
+	],
+	"glyph-color": "auto",
+	"in-kerning": [
+		""
+	],
+	"glyph-width": 9,
+	"glyph-height": 9,
+	"glyph-ofs-x": 4,
+	"glyph-ofs-y": 12,
+	"glyph-sep-x": 1,
+	"glyph-sep-y": 1,
+	"glyph-base-x": 0,
+	"glyph-baseline": 7,
+	"glyph-spacing": 1,
+	"font-is-mono": false,
+	"font-em-square": 1024,
+	"font-line-gap": 0,
+	"font-ascend": 896,
+	"font-descend": -256,
+	"font-px-size": 128,
+	"font-name": "Silkado",
+	"font-author": "macimas",
+	"font-copy": "(c)",
+	"font-version": "Version 1.0",
+	"font-desc": "Based on Jason Kottke's Silkscreen",
+	"font-license": "You have the permission",
+	"font-license-url": "",
+	"font-sample-text": "Hello!",
+	"font-preview-text": [
+		"ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+		"abcdefghijklmnopqrstuvwxyz",
+		"1234567890 !@#$%^&*()",
+		"`-=[]\\;',./~_+{}|:\"<>?"
+	]
+}

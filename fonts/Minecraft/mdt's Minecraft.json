@@ -1,0 +1,45 @@
+{
+	"$baseURI": "https://yal.cc/r/20/pixelfont/",
+	"$version": "1.0",
+	"in-glyphs": [
+		"abcdefghijklmnopqrstuvwxyz",
+		"ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+		"ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢ",
+		"1234567890 !@#$%^&*()",
+		"`-=[]\\;',./~_+{}|:\"<>?“”‘’"
+	],
+	"glyph-color": "auto",
+	"in-kerning": [
+		""
+	],
+	"glyph-width": 16,
+	"glyph-height": 16,
+	"glyph-ofs-x": 19,
+	"glyph-ofs-y": 18,
+	"glyph-sep-x": 1,
+	"glyph-sep-y": 1,
+	"glyph-base-x": 0,
+	"glyph-baseline": 11,
+	"glyph-spacing": 1,
+	"font-is-mono": false,
+	"font-em-square": 1024,
+	"font-line-gap": 0,
+	"font-ascend": 896,
+	"font-descend": -256,
+	"font-px-size": 128,
+	"font-name": "mdt's Minecraft",
+	"font-author": "mdt/macimas",
+	"font-copy": "(c) macimas",
+	"font-version": "v1.0",
+	"font-desc": "A more accurate recreation of Minecraft's font made with yal.cc/r/20/pixelfont/. Currently supports Basic Latin and sᴍᴀʟʟ ᴛᴇxᴛ.",
+	"font-license": "you have the permission",
+	"font-license-url": "",
+	"font-sample-text": "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢ 1234567890 !@#$%^&*() `-=[]\\;',./~_{}|:\"<>?",
+	"font-preview-text": [
+		"abcdefghijklmnopqrstuvwxyz",
+		"ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+		"ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘǫʀsᴛᴜᴠᴡxʏᴢ",
+		"1234567890 !@#$%^&*()",
+		"`-=[]\\;',./~_{}|:\"<>?"
+	]
+}
