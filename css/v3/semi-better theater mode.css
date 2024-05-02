@@ -48,6 +48,15 @@
 }
 
 
+/* adjust playlist stuff */
+
+#player.watch-medium .watch7-playlist-bar
+{ display: flex }
+
+#player.watch-medium .watch7-playlist-bar-left
+{ width: 100% }
+
+
 /* adjust dialog stuff */
 
 #player.watch-medium .ytp-dialog-holder {
