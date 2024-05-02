@@ -22,6 +22,9 @@
 { height: calc(100vh - var(--player-height-offset)) }
 
 #player.watch-medium video {
+    top: 0px !important;
+    left: 0px !important;
+
     object-fit: contain;
 
     width: 100% !important;
