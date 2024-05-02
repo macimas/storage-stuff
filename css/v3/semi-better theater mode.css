@@ -27,7 +27,7 @@
 
     width: auto !important;
     max-width: 100% !important;
-    height: 100% !important;
+    height: auto !important;
     max-height: 100% !important;
 
     transform: translate(-50%, -50%) !important;
