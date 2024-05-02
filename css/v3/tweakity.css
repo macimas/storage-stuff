@@ -1,0 +1,38 @@
+/*  attempt tweak some stuff for dark mode
+      without murdering white mode  */
+#c4-shelves-container
+{ background-color: transparent }
+
+.watch-card {
+    background-color: var(--color-fff, #fff);
+    border: 1px solid var(--color-e2, transparent);
+}
+
+.watch-card-list td
+{ border-bottom-color: var(--color-e2, #f1f1f1) !important }
+
+/* do not scroll backgrounds */
+body, #guide-main, #guide-container, #masthead-search-terms, #watch7-sidebar, .exp-not-top-guide-fixed #watch-context-container, html
+{ background-attachment: fixed !important }
+
+/* remove top padding */
+.site-left-aligned #page.watch, #watch7-sidebar
+{ padding-top: 0px !important }
+
+/* sidebar tweaking */
+.watch-sidebar-head
+{ margin-top: 10px }
+
+.watch-wide #watch7-sidebar-contents
+{ margin-top: 15px }
+
+/* max width comments */
+.comments-iframe-container
+{ max-width: none }
+
+/* remove Like text in watch 7 */
+#watch7-main:not(.watch8) #watch-like .yt-uix-button-icon-wrapper
+{ margin-right: 0px !important }
+
+#watch7-main:not(.watch8) #watch-like .yt-uix-button-content
+{ display: none }
