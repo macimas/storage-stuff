@@ -1,0 +1,88 @@
+:root {
+    --player-height-offset: 184px;
+    --video-height-offset: 3px;
+}
+
+/*
+    === magical stuff ===
+*/
+
+.appbar-mini-cinema #player.watch-medium:before
+{ background-color: transparent }
+
+#player.watch-medium {
+    padding-left: 0px !important;
+    width: 100% !important;
+}
+
+#player.watch-medium .player-width
+{ width: 100% }
+
+#player.watch-medium .player-height
+{ height: calc(100vh - var(--player-height-offset)) }
+
+#player.watch-medium video {
+    top: 0px !important;
+    left: 50% !important;
+    
+    width: auto !important;
+    height: calc(100% - var(--video-height-offset)) !important;
+    
+    transform: translateX(-50%) !important;
+}
+
+#player.watch-medium .html5-video-content {
+    top: 0px !important;
+    
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#player.watch-medium .html5-video-player.ended-mode video {
+    opacity: 0%;
+    transition: 0.16s opacity linear
+}
+
+
+/* adjust dialog stuff */
+
+#player.watch-medium .ytp-dialog-holder
+{ width: 100% }
+
+#player.watch-medium .ytp-dialog {
+    margin-top: 10% !important;
+    margin-left: 50% !important;
+    transform: translateX(-50%);
+}
+
+
+
+
+/*
+    === autohide video controls ===
+*/
+
+#player.watch-medium .html5-video-player:not(.ytp-block-autohide) .html5-player-chrome
+{ height: 0 }
+
+#player.watch-medium .html5-video-player:not(.ytp-block-autohide) .html5-player-chrome > *
+{ opacity: 0% }
+
+#player.watch-medium .html5-player-chrome
+{ transition: 0.24s height ease-out }
+
+#player.watch-medium .html5-player-chrome > *
+{ transition: 0.16s opacity ease-out }
+
+#player.watch-medium .html5-video-container
+{ height: 100% }
+
+
+/* adjust subtitles for autohide */
+
+#player.watch-medium .html5-video-player:not(.ytp-block-autohide) .ytp-subtitles-player-content > div {
+    padding-bottom: 0px;
+}
+
+#player.watch-medium .ytp-subtitles-player-content > div
+{ transition: 0.24s padding-bottom ease-out }
