@@ -9,6 +9,13 @@ it also works with StarTube at least when i tried it with most layouts, altho i 
 
 ![preview](semi-better_theater_mode.gif)
 
+### semi-better vordebugger.css
+an attempt to improve the vordebugger, with my personal preference
+<br>
+it's a bit iffy, but should be good enough (for me at the very least)
+
+![preview](semi-better_vordebugger.png)
+
 ### tweakity.css
 my personal clump of tweaks
 <br>
