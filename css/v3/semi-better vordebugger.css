@@ -1,6 +1,6 @@
 :root {
     --vordebugger-width: 400px;
-    --vordebugger-height: calc(100vh);
+    --vordebugger-height: calc(100vh - 64px);
     
     /* ah yes, blue can be red */
     /* for DARK_MOD compat stuff. you probably dont need to touch this */
