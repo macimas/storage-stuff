@@ -1,7 +1,22 @@
 :root {
+    /* tweak these variables until things look right :) */
+    
     --player-height-offset: 184px;
     --video-height-offset: 3px;
+    
+    --playlist-sidebar-width: 380px;
+    --playlist-sidebar-height-offset: 35px;
 }
+
+:root {
+    /* you probably do not need to modify these variables */
+    
+    --calc-player-height: calc(100vh - var(--player-height-offset));
+    --calc-video-height: calc(100% - var(--video-height-offset));
+    --calc-playlist-sidebar-height-offset: calc(var(--calc-player-height) - var(--playlist-sidebar-height-offset))
+}
+
+
 
 /*
     === magical stuff ===
@@ -19,7 +34,7 @@
 { width: 100% }
 
 #player.watch-medium .player-height
-{ height: calc(100vh - var(--player-height-offset)) }
+{ height: var(--calc-player-height) }
 
 #player.watch-medium video {
     top: 0px !important;
@@ -32,7 +47,7 @@
 }
 
 #player.watch-medium .html5-video-container {
-    height: calc(100% - var(--video-height-offset)) !important;
+    height: var(--calc-video-height) !important;
 }
 
 #player.watch-medium .html5-video-content {
@@ -50,11 +65,26 @@
 
 /* adjust playlist stuff */
 
+#player.watch-medium #playlist-tray
+{ z-index: 900 }
+
 #player.watch-medium .watch7-playlist-bar
 { display: flex }
 
 #player.watch-medium .watch7-playlist-bar-left
 { width: 100% }
+
+#player.watch-medium .watch-sidebar {
+    min-width: var(--playlist-sidebar-width);
+    left: unset;
+    right: 0px;
+}
+
+#player.watch-medium #watch7-playlist-tray-container
+{ height: var(--calc-playlist-sidebar-height-offset) }
+
+.watch-playlist-collapsed #watch7-playlist-tray-container
+{ height: 0 !important }
 
 
 /* adjust dialog stuff */
@@ -75,7 +105,6 @@
 
     transform: translate(-50%, -50%);
 }
-
 
 
 
